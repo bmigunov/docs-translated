@@ -11,6 +11,169 @@ tags:
 
 ## Оглавление
 
++ [[#1. Структура синтаксиса]]
+	+ [[#1.1. Валидность диаграмм]]
++ [[#2. Блок-схемы]]
+	+ [[#2.1. Узел (по-умолчанию)]]
+	+ [[#2.2. Узел с текстом]]
+	+ [[#2.3. Графы]]
+	+ [[#2.4. Фигуры узлов]]
+	+ [[#2.5. Связи между узлами]]
+	+ [[#2.6. Типы стрелок]]
+	+ [[#2.7. Стрелки со множеством направлений]]
+	+ [[#2.8. Минимальная длина связи]]
+	+ [[#2.9. Спецсимволы, влияющие на отображение диаграмм]]
+	+ [[#2.10. Подграфы]]
+		+ [[#2.10.1. Ориентация в подграфах]]
+	+ [[#2.11. Взаимодействие]]
+	+ [[#2.12. Комментарии]]
+	+ [[#2.13. Стилизация и классы]]
+		+ [[#2.13.1. Стилизация связей]]
+		+ [[#2.13.2. Стилизация линий]]
+		+ [[#2.13.3. Стилизация узлов]]
+		+ [[#2.13.4. Классы]]
+		+ [[#2.13.5. Классы CSS]]
+		+ [[#2.13.6. Класс, используемый по-умолчанию]]
+	+ [[#2.14. Поддержка fontawesome]]
+	+ [[#2.15. Объявления диаграмм с пробелами между вершинами и связями и отказ от использования точки с запятой]]
+	+ [[#2.16. Конфигурация]]
+		+ [[#2.16.1. Рендерер]]
+		+ [[#2.16.2. Ширина]]
++ [[#3. Диаграммы последовательностей]]
+	+ [[#3.1. Синтаксис]]
+		+ [[#3.1.1. Участники]]
+		+ [[#3.1.2. Акторы]]
+		+ [[#3.1.3. Алиасы]]
+		+ [[#3.1.4. Группирование]]
+	+ [[#3.2. Сообщения]]
+	+ [[#3.3. Активация]]
+	+ [[#3.4. Примечания]]
+	+ [[#3.5. Циклы]]
+	+ [[#3.6. Альтернативные пути]]
+	+ [[#3.7. Параллели]]
+	+ [[#3.8. Критические участки]]
+	+ [[#3.9. Прерывания]]
+	+ [[#3.10. Подсветка фона]]
+	+ [[#3.11. sequenceNumbers]]
+	+ [[#3.12. Меню акторов]]
+	+ [[#3.12.1. Продвинутый синтаксис меню]]
+	+ [[#3.13. Стилизация]]
+	+ [[#3.14. Настройка]]
+	+ [[#3.15. Комментарии]]
++ [[#4. Диаграммы классов]]
+	+ [[#4.1. Синтаксис]]
+		+ [[#4.1.1. Класс]]
+	+ [[#4.2. Определение класса]]
+		+ [[#4.2.1. Метки классов]]
+	+ [[#4.3. Определение членов класса]]
+		+ [[#4.3.1. Тип возвращаемого значения]]
+		+ [[#4.3.2. Обобщённые типы]]
+		+ [[#4.3.3. Видимость]]
+	+ [[#4.4. Определение отношений]]
+		+ [[#4.4.1. Двусторонние отношения]]
+	+ [[#4.5. "Кардинальность"/Множественность отношений]]
+	+ [[#4.6. Аннотации к классам]]
+	+ [[#4.7. Комментарии]]
+	+ [[#4.8. Направление диаграммы]]
+	+ [[#4.9. Взаимодействие]]
+	+ [[#4.10. Заметки]]
+	+ [[#4.11. Стилизаия]]
+		+ [[#4.11.1. Стилизация узлов]]
+		+ [[#4.11.2. Стили по-умолчанию]]
++ [[#5. Диаграммы состояний]]
+	+ [[#5.1. Состояния]]
+	+ [[#5.2. Переходы]]
+	+ [[#5.3. Начало и конец]]
+	+ [[#5.4. Составные состояния]]
+	+ [[#5.5. Выбор/ветвление]]
+	+ [[#5.6. Ветвления]]
+	+ [[#5.7. Заметки]]
+	+ [[#5.8. Параллелизм]]
+	+ [[#5.9. Направление диаграммы]]
+	+ [[#5.10. Комментарии]]
+	+ [[#5.11. Стилизация при помощи classDef]]
+		+ [[#5.11.1. Применение стилей classDef к состояниям]]
++ [[#6. Диаграммы отношений сущностей]]
+	+ [[#6.1. Синтаксис]]
+		+ [[#6.1.1. Сущности и отношения]]
+		+ [[#6.1.2. Синтаксис отношений]]
+		+ [[#6.1.3. Идентификация]]
+		+ [[#6.1.4. Атрибуты]]
+		+ [[#6.1.5. Дополнительно]]
+	+ [[#6.2. Стилизация]]
++ [[#7. Диаграммы пути пользователя]]
++ [[#8. Gantt]]
+	+ [[#8.1. Примечания]]
+	+ [[#8.2. Синтаксис]]
+		+ [[#8.2.1. Заголовок]]
+		+ [[#8.2.2. Секции]]
+		+ [[#8.2.3. Этапы]]
+		+ [[#8.2.4. Даты]]
+			+ [[#8.2.4.1. Входной формат дат]]
+			+ [[#8.2.4.2. Формат вывода даты на оси]]
+			+ [[#8.2.4.3. Шаги на оси]]
+		+ [[#8.2.5. Вывод в компактном режиме]]
+		+ [[#8.2.6. Комментарии]]
+	+ [[#8.3. Стилизация]]
+	+ [[#8.4. Маркер текущей даты]]
+	+ [[#8.5. Конфигурация]]
+	+ [[#8.6. Взаимодействие]]
++ [[#9. Круговые диаграммы]]
+	+ [[#9.1. Синтаксис]]
+	+ [[#9.2. Конфигурация]]
++ [[#10. Диаграммы требований]]
+	+ [[#10.1. Синтаксис]]
+		+ [[#10.1.1. Требование]]
+		+ [[#10.1.2. Элемент]]
+		+ [[#10.1.3. Отношения]]
++ [[#11. Gitgraph]]
+	+ [[#11.1. Синтаксис]]
+		+ [[#11.1.1. Создание пользовательского идентификатора коммита]]
+		+ [[#11.1.2. Изменение типа коммита]]
+		+ [[#11.1.3. Добавление тэгов]]
+		+ [[#11.1.4. Создание новой ветки]]
+		+ [[#11.1.5. Переключение на существующую ветку]]
+		+ [[#11.1.6. Слияние двух веток]]
+		+ [[#11.1.7. "Черри-пик" коммитов из других веток]]
+		+ [[#11.1.8. Изменение очерёдности веток]]
+	+ [[#11.2. Опции конфигурации Gitgraph]]
+		+ [[#11.2.1. Сокрытие имён и линий веток]]
+		+ [[#11.2.2. Отоброжение меток коммитов: повёрнутое и горизонтальное]]
+		+ [[#11.2.3. Отображение меток коммитов]]
+		+ [[#11.2.4. Именование основной ветки]]
+		+ [[#11.2.5. Темы]]
+		+ [[#11.2.6. Изменение цветовой схемы при помощи переменных тем]]
+			+ [[#11.2.6.1. Изменение цветов веток]]
+			+ [[#11.2.6.2. Изменение цвета имени ветки]]
+			+ [[#11.2.6.3. Изменение цветов в метках коммитов]]
+			+ [[#11.2.6.4. Изменение размера шрифта метки коммита]]
+			+ [[#11.2.6.5. Изменение размера шрифта тэга]]
+			+ [[#11.2.6.6. Изменение цветов тэгов]]
+			+ [[#11.2.6.7. Изменение цвета подсвечиваемых коммитов]]
++ [[#12. Диаграммы C4]]
+	+ [[#12.1. C4Context]]
+	+ [[#12.2. C4Container]]
+	+ [[#12.3. C4Component]]
+	+ [[#12.4. C4Dynamic]]
+	+ [[#12.5. C4Deployment]]
++ [[#13. Карты мыслей]]
+	+ [[#13.1. Синтаксис]]
+	+ [[#13.2. Фигуры]]
+	+ [[#13.3. Пиктограммы и классы]]
+		+ [[#13.3.1. Пиктограммы]]
+		+ [[#13.2. Различные фигуры]]
+	+ [[#13.4. Разметка строк]]
+	+ [[#13.5. Интеграция с библиотеками и WEB-страницами]]
++ [[#14. Диаграммы временной шкалы]]
+	+ [[#14.1. Синтаксис]]
+	+ [[#14.2. Группирование временных периодов по секциям/поколениям]]
+	+ [[#14.3. Свёртка текста для длительных периодов или событий]]
+	+ [[#14.4. Стилизация временных периодов и событий]]
+		+ [[#14.4.1. Изменение цветовой схемы]]
+	+ [[#14.5. Темы]]
+	+ [[#14.6. Интеграция с библиотеками и WEB-страницами]]
++ [[#Ссылки]]
+
 ## 1. Структура синтаксиса
 
 Все определения диаграмм начинаются с объявления типа диаграммы, с последующим определением содержимого.  
@@ -3912,11 +4075,1352 @@ _Mermaid_ поддерживает визуализацию таких базо�
 
 ### 11.1. Синтаксис
 
+Синтаксис _диаграмм Gitgraph_ следует декларативному подходу. Каждый коммит изображается на временной линии диаграммы в порядке его появления в коде диаграммы.
+
+Первое, что нужно сделать - обозначить тип диаграммы ключевым словом `gitGraph`.
+
+Каждая диаграмма инициализируется веткой _main_. Если не создать ветку с иным названием, все коммиты будут принадлежать ветке _main_, которая будет являться _текущей веткой_.
+
+Ключевое слово `commit` регистрирует коммит на текущей ветке:
+
+```markdown
+gitGraph
+	commit
+	commit
+	commit
+```
+
+```mermaid
+gitGraph
+	commit
+	commit
+	commit
+```
+
+Как видно на диаграмме, ветка по-умолчанию называется `main`. Также каждому коммиту даётся случайный уникальный идентификатор. Идентификатор для коммита можно задать.
+
+#### 11.1.1. Создание пользовательского идентификатора коммита
+
+Для коммита можно определить пользовательский идентификатор во время его объявления, используя атрибут `id` с последующими двоеточием и значением, заключённым в двойные кавычки:
+
+```markdown
+gitGraph
+	commit id: "Alpha"
+	commit id: "Beta"
+	commit id: "Gamma"
+```
+
+```mermaid
+gitGraph
+	commit id: "Alpha"
+	commit id: "Beta"
+	commit id: "Gamma"
+```
+
+#### 11.1.2. Изменение типа коммита
+
+_Mermaid_ позволяет задать один из трёх типов для коммита:
+
++ `NORMAL`: тип коммита по-умолчанию. Представляется в виде заполненного круга на диаграмме.
++ `REVERSE`: тип коммита, обозначающий обратные изменения. Представляется в виде заполненного круга с крестом внутри на диаграмме.
++ `HIGHLIGHT`: для подсветки конкретного коммита на диаграмме. Представляется в виде заполненного квадрата на диаграмме.
+
+Для того, чтобы обозначить тип коммита, используется атрибут `type` с последующими двоеточием и одним из типов, описанных выше:
+
+```markdown
+gitGraph
+	commit id: "Normal"
+	commit id: "Reverse" type: REVERSE
+	commit id: "Highlight" type: HIGHLIGHT
+	commit
+```
+
+```mermaid
+gitGraph
+	commit id: "Normal"
+	commit id: "Reverse" type: REVERSE
+	commit id: "Highlight" type: HIGHLIGHT
+	commit
+```
+
+#### 11.1.3. Добавление тэгов
+
+Для определённого коммита можно создать "тэг" (по аналогии с концепцией тэгов или версий релиза в контексте использования _Git_). Присоединяется тэг во время объявления коммита при помощи атрибута `tag` с последующими двоеточием и значением атрибута в двойных кавычках:
+
+```markdown
+gitGraph
+	commit
+	commit id: "Normal" tag: "v1.0.0"
+	commit
+	commit id: "Reverse" type: REVERSE tag: "RC_1"
+	commit
+	commit id: "Highlight" type: HIGHLIGHT tag: "8.8.4"
+	commit
+```
+
+```mermaid
+gitGraph
+	commit
+	commit id: "Normal" tag: "v1.0.0"
+	commit
+	commit id: "Reverse" type: REVERSE tag: "RC_1"
+	commit
+	commit id: "Highlight" type: HIGHLIGHT tag: "8.8.4"
+	commit
+```
+
+#### 11.1.4. Создание новой ветки
+
+Чтобы создать на диаграмме новую ветку, используется ключевое слово `branch`. Также необходимо дать имя новой ветке, которое должно быть уникальным. Имя ветки, которое может быть определено, как ключевое слово, должно заключаться в двойные кавычки.
+
+Когда _Mermaid_ считывает ключевое слово `branch`, создаётся новая ветка и устанавливается, как текущая.
+
+**Пример**
+
+```markdown
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+```
+
+```mermaid
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+```
+
+#### 11.1.5. Переключение на существующую ветку
+
+Для смены веток в _Mermaid_ используется ключевое слово `checkout`. Данное ключевое слово должно быть дополнено названием существующей ветки. Если ветки с заданным именем не найдено, возникнет ошибка.
+
+**Пример**
+
+```markdown
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+	checkout main
+	commit
+	commit
+```
+
+```mermaid
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+	checkout main
+	commit
+	commit
+```
+
+#### 11.1.6. Слияние двух веток
+
+Для слияния или соединения существующей ветки, используется ключевое слово `merge`. Данное ключевое слово должно быть дополнено названием существующей ветки, откуда будет вестись слияние. Отсутствие ветки с заданным названием приведёт к ошибке. Слияние ветки саму в себя также невозможно.
+
+На диаграмме "коммиты слияния" отображаются в виде двойного заполненного круга.
+
+**Пример**
+
+```markdown
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+	checkout main
+	commit
+	commit
+	merge develop
+	commit
+	commit
+```
+
+```mermaid
+gitGraph
+	commit
+	commit
+	branch develop
+	commit
+	commit
+	commit
+	checkout main
+	commit
+	commit
+	merge develop
+	commit
+	commit
+```
+
+"Коммиты слияния" могут сопровождаться такими атрибутами, как `id`, `tag` или `type`, например:
+
+`merge develop id: "my_custom_id" tag: "my_custom_tag" type: REVERSE`.
+
+#### 11.1.7. "Черри-пик" коммитов из других веток
+
+_Mermaid_ поддерживает отображение "черри-пика" коммита из другой ветки. Для этого используется ключевое слово `cherry-pick`.
+
+Для корректного использования `cherry-pick` в _Mermaid_, должен быть указан атрибут `id` с последующими двоеточием и идентификатором нужного коммита в двойных кавычках:
+
+`cherry-pick id: "your_custom_id"`.
+
+Несколько важных примечаний:
+
+1. Должен быть предоставлен идентификатор существующего на диаграмме коммита, иначе результатом будет ошибка.
+2. Коммит не должен существовать на текущей ветке.
+3. Текущая ветка должна иметь хотя бы один коммит, прежде чем может быть осуществлён "черри-пик", иначе результатом будет ошибка.
+
+**Пример**
+
+```markdown
+gitGraph
+	commit id: "ZERO"
+	branch develop
+	commit id:"A"
+	checkout main
+	commit id:"ONE"
+	checkout develop
+	commit id:"B"
+	checkout main
+	commit id:"TWO"
+	cherry-pick id:"A"
+	commit id:"THREE"
+	checkout develop
+	commit id:"C"
+```
+
+```mermaid
+gitGraph
+	commit id: "ZERO"
+	branch develop
+	commit id:"A"
+	checkout main
+	commit id:"ONE"
+	checkout develop
+	commit id:"B"
+	checkout main
+	commit id:"TWO"
+	cherry-pick id:"A"
+	commit id:"THREE"
+	checkout develop
+	commit id:"C"
+```
+
+#### 11.1.8. Изменение очерёдности веток
+
+В диаграммах Gitgraph по-умолчанию ветки отображаются в порядке их определения в коде диаграммы.
+
+Если есть необходимость изменить порядок отображения веток на диаграмме, необходимо использовать ключевое слово `order` с последующими двоеточием и положительным числом при определении ветки.
+
+Основная ветка всегда находится первой в очереди (значение по-умолчанию `0`), но данное поведение можно изменить при помощи свойства диаграммы `mainBranchOrder`.
+
+**Пример**
+
+```markdown
+%%{init: { 'logLevel: 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel': true, 'mainBranchOrder': 2}} }%%
+gitGraph
+	commit
+	branch test1 order: 3
+	branch test2
+	branch test3
+	branch test4 order: 1
+```
+
+```mermaid
+%%{init: { 'logLevel: 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel': true, 'mainBranchOrder': 2}} }%%
+gitGraph
+	commit
+	branch test1 order: 3
+	branch test2
+	branch test3
+	branch test4 order: 1
+```
+
+### 11.2. Опции конфигурации Gitgraph
+
+В _Mermaid_ существует возможность настраивать диаграммы Gitgraph, используя следующие опции:
+
++ `showBranches`: булево значение, по-умолчанию установлено в `true`. Если установлено в `false`, ветки не показываются в диаграмме.
++ `showCommitLabel`: булево значение, по-умолчанию установлено в `true`. Если установлено в `false`, метки коммитов не отображаются на диаграмме.
++ `mainBranchName`: строка, по-умолчанию `main`. Имя ветки по-умолчанию (корневой).
++ `mainBranchOrder`: позиция корневой ветки в списке веток. По-умолчанию значение `0`, что значит, что корневая ветка первая в списке.
+
+#### 11.2.1. Сокрытие имён и линий веток
+
+**Пример**
+
+```markdown
+%%{init :{ 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
+gitGraph
+	commit
+	branch hotfix
+	checkout hotfix
+	commit
+	branch develop
+	checkout develop
+	commit id:"ash" tag:"abc"
+	branch featureB
+	checkout featureB
+	commit type:HIGHLIGHT
+	checkout main
+	checkout hotfix
+	commit type:NORMAL
+	checkout develop
+	commit type:REVERSE
+	checkout featureB
+	commit
+	checkout main
+	merge hotfix
+	checkout featureB
+	commit
+	checkout develop
+	branch featureA
+	commit
+	checkout develop
+	merge hotfix
+	checkout featureA
+	commit
+	checkout featureB
+	commit
+	checkout develop
+	merge featureA
+	branch release
+	checkout release
+	commit
+	checkout main
+	commit
+	checkout release
+	merge main
+	checkout develop
+	merge release
+```
+
+```mermaid
+%%{init :{ 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
+gitGraph
+	commit
+	branch hotfix
+	checkout hotfix
+	commit
+	branch develop
+	checkout develop
+	commit id:"ash" tag:"abc"
+	branch featureB
+	checkout featureB
+	commit type:HIGHLIGHT
+	checkout main
+	checkout hotfix
+	commit type:NORMAL
+	checkout develop
+	commit type:REVERSE
+	checkout featureB
+	commit
+	checkout main
+	merge hotfix
+	checkout featureB
+	commit
+	checkout develop
+	branch featureA
+	commit
+	checkout develop
+	merge hotfix
+	checkout featureA
+	commit
+	checkout featureB
+	commit
+	checkout develop
+	merge featureA
+	branch release
+	checkout release
+	commit
+	checkout main
+	commit
+	checkout release
+	merge main
+	checkout develop
+	merge release
+```
+
+#### 11.2.2. Отоброжение меток коммитов: повёрнутое и горизонтальное
+
+_Mermaid_ поддерживает два типа отображения меток коммитов. По-умолчанию, отображение меток повёрнутое (метки помещаются под маркер коммита и повёрнуты на 45 градусов).
+
+Дополнительно можно отображать метки в горизонтальном положении (метки коммитов помещаются под маркерами коммитов и подгоняются по-центру в горизонтальном положении).
+
+Данное поведение настраивается при помощи свойства диаграммы `rotateCommitLabel`, принимающего значения `true` (по-умолчанию) или `false`.
+
+**Пример использования повёрнутой ориентации**
+
+```markdown
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
+gitGraph
+	commit id: "feat(api): ..."
+	commit id: "a"
+	commit id: "b"
+	commit id: "fix(client): .extra long label.."
+	branch c2
+	commit id: "feat(modules): ..."
+	commit id: "test(client): ..."
+	checkout main
+	commit id: "fix(api): ..."
+	commit id: "ci: ..."
+	branch b1
+	commit
+	branch b2
+	commit
+```
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
+gitGraph
+	commit id: "feat(api): ..."
+	commit id: "a"
+	commit id: "b"
+	commit id: "fix(client): .extra long label.."
+	branch c2
+	commit id: "feat(modules): ..."
+	commit id: "test(client): ..."
+	checkout main
+	commit id: "fix(api): ..."
+	commit id: "ci: ..."
+	branch b1
+	commit
+	branch b2
+	commit
+```
+
+**Пример использования горизонтальной ориентации**
+
+```markdown
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': false}} }%%
+gitGraph
+	commit id: "feat(api): ..."
+	commit id: "a"
+	commit id: "b"
+	commit id: "fix(client): .extra long label..."
+	branch c2
+	commit id: "feat(modules): ..."
+	commit id: "test(client): ..."
+	checkout main
+	commit id: "fix(api): ..."
+	commit id: "ci: ..."
+	branch b1
+	commit
+	branch b2
+	commit
+```
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': false}} }%%
+gitGraph
+	commit id: "feat(api): ..."
+	commit id: "a"
+	commit id: "b"
+	commit id: "fix(client): .extra long label..."
+	branch c2
+	commit id: "feat(modules): ..."
+	commit id: "test(client): ..."
+	checkout main
+	commit id: "fix(api): ..."
+	commit id: "ci: ..."
+	branch b1
+	commit
+	branch b2
+	commit
+```
+
+#### 11.2.3. Отображение меток коммитов
+
+Для отображения меток коммитов используется свойство диаграммы `showCommitLabel`, принимающее значения `true` (по-умолчанию) и `false` (метки коммитов скрыты).
+
+#### 11.2.4. Именование основной ветки
+
+Для изменения имени основной (корневой) ветки используется свойство диаграммы `mainBranchName`, которое принимает строки в качестве значений (по-умолчанию используется имя `main`).
+
+#### 11.2.5. Темы
+
+_Mermaid_ поддерживает несколько тем для данных диаграмм (также можно переопределить существующую тему, о чём можно узнать [здесь](https://mermaid.js.org/config/theming.html)).
+
+Поддерживаемые в _Mermaid_ темы:
+
++ `base`
++ `forest`
++ `dark`
++ `default`
++ `neutral`
+
+Для изменения тем может быть использовано как ключевое слово `initialize`, так и _директивы_. О директивах можно узнать [здесь](https://mermaid.js.org/config/directives.html).
+
+#### 11.2.6. Изменение цветовой схемы при помощи переменных тем
+
+> [!warning]
+> _Mermaid_ поддерживает переменные тем для переопределения стандартных значений максимум для 8-ми веток. Далее переменные тем будут повторяться циклично (для 9-й ветки будут использоваться переменные тем 1-й ветки и т.д.)
+
+##### 11.2.6.1. Изменение цветов веток
+
+Изменить цвета веток можно при помощи переменных тем от `git0` до `git7`.
+
+**Пример**
+
+```markdown
+%%{init: { 'logLevel': 'debug', 'theme': 'default', 'themeVariables': {
+	'git0': '#ff0000',
+	'git1': '#00ff00',
+	'git2': '#0000ff',
+	'git3': '#ff00ff',
+	'git4': '#00ffff',
+	'git5': '#ffff00',
+	'git6': '#ff00ff',
+	'git7': '#00ffff'
+}} }%%
+gitGraph
+	commit
+	branch develop
+	commit tag:"v1.0.0"
+	commit
+	checkout main
+	commit type: HIGHLIGHT
+	commit
+	merge develop
+	commit
+	branch featureA
+	commit
+```
+
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'default', 'themeVariables': {
+	'git0': '#ff0000',
+	'git1': '#00ff00',
+	'git2': '#0000ff',
+	'git3': '#ff00ff',
+	'git4': '#00ffff',
+	'git5': '#ffff00',
+	'git6': '#ff00ff',
+	'git7': '#00ffff'
+}} }%%
+gitGraph
+	commit
+	branch develop
+	commit tag:"v1.0.0"
+	commit
+	checkout main
+	commit type: HIGHLIGHT
+	commit
+	merge develop
+	commit
+	branch featureA
+	commit
+```
+
+##### 11.2.6.2. Изменение цвета имени ветки
+
+Изменить цвет для имени ветки можно при помощи переменных от `gitBranchLabel0` до `gitBranchLabel7` (по аналогии с [[#11.2.6.1. Изменение цветов веток]]).
+
+##### 11.2.6.3. Изменение цветов в метках коммитов
+
+Изменить цвета коммитов можно при помощи переменных `commitLabelColor` (цвет текста метки коммита) и `commitLabelBackground` (цвет фона метки коммита).
+
+##### 11.2.6.4. Изменение размера шрифта метки коммита
+
+Изменить размер шрифта метки коммита можно при помощи переменной `commitLabelFontSize`.
+
+##### 11.2.6.5. Изменение размера шрифта тэга
+
+Изменить размер шрифта тэга можно при помощи переменной `tagLabelFontSize`.
+
+##### 11.2.6.6. Изменение цветов тэгов
+
+Изменить цвета тэгов можно при помощи переменных `tagLabelColor` (цвет шрифта тэга), `tagLabelBackground` (цвет фона тэга) и `tagLabelBorder` (цвет окаймления тэга).
+
+##### 11.2.6.7. Изменение цвета подсвечиваемых коммитов
+
+Для "подсвечиваемых" (`HIGHLIGHT`) коммитов можно использовать пользовательские цвета, заданные переменными от `gitInv0` до `gitInv7` (для 8-ми веток по-порядку, далее - циклично).
+
 ## 12. Диаграммы C4
+
+> [!warning]
+> На данный момент диаграммы C4 являются экспериментальными. Синтаксис и свойства могут измениться в будущие релизы. Актуальная документация будет доступна со стабилизацией синтаксиса.
+
+Синтаксис для диаграмм C4 схож с используемым в _plantUML_.
+
+**Пример**
+
+```markdown
+C4Context
+	title System Context diagram for Internet Banking System
+	Enterprise_Boundary(b0, "BankBoundary0") {
+		Person(customerA, "Banking Customer A", "A customer of the bank, <br/> with personal bank accounts.")
+		Person(customerB, "Banking Customer B")
+		Person_Ext(customerC, "Banking Customer C", "desc")
+		
+		Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+		System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+		Enterprise_Boundary(b1, "BankBoundary") {
+			SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+			System_Boundary(b2, "BankBoundary2") {
+				System(SystemA, "Banking System A")
+				System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
+			}
+
+			System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+			SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+			Boundary(b3, "BankBoundary3", "boundary") {
+				SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+				SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+			}
+		}
+	}
+
+	BiRel(customerA, SystemAA, "Uses")
+	BiRel(SystemAA, SystemE, "Uses")
+	Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+	Rel(SystemC, customerA, "Sends e-mails to")
+
+	UpdateElementStyle(cystomerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+	UpdateRelStyle(customerA, SystemAAm $textColor="blue", $lineColor="blue", $offsetX="5")
+	UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+	UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+	UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+	UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+```
+
+```mermaid
+C4Context
+	title System Context diagram for Internet Banking System
+	Enterprise_Boundary(b0, "BankBoundary0") {
+		Person(customerA, "Banking Customer A", "A customer of the bank, <br/> with personal bank accounts.")
+		Person(customerB, "Banking Customer B")
+		Person_Ext(customerC, "Banking Customer C", "desc")
+		
+		Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+		System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+		Enterprise_Boundary(b1, "BankBoundary") {
+			SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+			System_Boundary(b2, "BankBoundary2") {
+				System(SystemA, "Banking System A")
+				System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
+			}
+
+			System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+			SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+			Boundary(b3, "BankBoundary3", "boundary") {
+				SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+				SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+			}
+		}
+	}
+
+	BiRel(customerA, SystemAA, "Uses")
+	BiRel(SystemAA, SystemE, "Uses")
+	Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+	Rel(SystemC, customerA, "Sends e-mails to")
+
+	UpdateElementStyle(cystomerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+	UpdateRelStyle(customerA, SystemAAm $textColor="blue", $lineColor="blue", $offsetX="5")
+	UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+	UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+	UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+	UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+```
+
+На данный момент поддерживается 5 типов диаграмм C4:
+
++ Контекст системы (_C4Context_)
++ Диаграммы контейнеров (_C4Container_)
++ Диаграммы компонентов (_C4Component_)
++ Динамические диаграммы (_C4Dynamic_)
++ Диаграммы развёртывания (_C4Deployment_)
+
+На данный момент желательно использовать документацию [синтаксиса диаграмм C4 для _PlantUML_](https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/README.md).
+
+Диаграммы C4 имеют фиксированный стиль (напр., цвета **CSS**). `updateElementStyle` и `updateRelStyle` объявляются в конце исходного кода диаграммы. `updateElementStyle` не соответствует оригинальному определению и меняет стиль взаимосвязи, включая сдвиг текста метки относительно изначальной позиции.
+
+Расположение форм корректируется сменой порядка, в котором расположены определения. Количество форм на строку и количество связей может быть правлено при помоще `updateLayoutConfig`.
+
+### 12.1. C4Context
+
+```markdown
+C4Context
+	title System Context diagram for Internet Banking System
+		Enterprise_Boundary(b0, "BankBoundary0") {
+			Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+	        Person(customerB, "Banking Customer B")
+	        Person_Ext(customerC, "Banking Customer C", "desc")
+
+	        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+	        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+	        Enterprise_Boundary(b1, "BankBoundary") {
+				SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+				System_Boundary(b2, "BankBoundary2") {
+		            System(SystemA, "Banking System A")
+		            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+				}
+
+			System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+			SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+			Boundary(b3, "BankBoundary3", "boundary") {
+			    SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+		        SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+			}
+		}
+	}
+
+	BiRel(customerA, SystemAA, "Uses")
+	BiRel(SystemAA, SystemE, "Uses")
+	Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+	Rel(SystemC, customerA, "Sends e-mails to")
+
+	UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+	UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+	UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+	UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+	UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+	UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+```
+
+```mermaid
+C4Context
+	title System Context diagram for Internet Banking System
+		Enterprise_Boundary(b0, "BankBoundary0") {
+			Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+	        Person(customerB, "Banking Customer B")
+	        Person_Ext(customerC, "Banking Customer C", "desc")
+
+	        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+	        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+	        Enterprise_Boundary(b1, "BankBoundary") {
+				SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+				System_Boundary(b2, "BankBoundary2") {
+		            System(SystemA, "Banking System A")
+		            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+				}
+
+			System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+			SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+			Boundary(b3, "BankBoundary3", "boundary") {
+			    SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+		        SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+			}
+		}
+	}
+
+	BiRel(customerA, SystemAA, "Uses")
+	BiRel(SystemAA, SystemE, "Uses")
+	Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+	Rel(SystemC, customerA, "Sends e-mails to")
+
+	UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+	UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+	UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+```
+
+### 12.2. C4Container
+
+```markdown
+C4Container
+	title Container diagram for Internet Banking System
+
+    System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", $tags="v1.0")
+    Person(customer, Customer, "A customer of the bank, with personal bank accounts", $tags="v1.0")
+
+    Container_Boundary(c1, "Internet Banking") {
+        Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to cutomers via their web browser")
+        Container_Ext(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device")
+        Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA")
+        ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.")
+        ContainerDb_Ext(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API")
+
+    }
+
+    System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+    Rel(customer, web_app, "Uses", "HTTPS")
+    UpdateRelStyle(customer, web_app, $offsetY="60", $offsetX="90")
+    Rel(customer, spa, "Uses", "HTTPS")
+    UpdateRelStyle(customer, spa, $offsetY="-40")
+    Rel(customer, mobile_app, "Uses")
+    UpdateRelStyle(customer, mobile_app, $offsetY="-30")
+
+    Rel(web_app, spa, "Delivers")
+    UpdateRelStyle(web_app, spa, $offsetX="130")
+    Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
+    Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
+    Rel_Back(database, backend_api, "Reads from and writes to", "sync, JDBC")
+
+    Rel(email_system, customer, "Sends e-mails to")
+    UpdateRelStyle(email_system, customer, $offsetX="-45")
+    Rel(backend_api, email_system, "Sends e-mails using", "sync, SMTP")
+    UpdateRelStyle(backend_api, email_system, $offsetY="-60")
+    Rel(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
+    UpdateRelStyle(backend_api, banking_system, $offsetY="-50", $offsetX="-140")
+```
+
+```mermaid
+C4Container
+	title Container diagram for Internet Banking System
+
+    System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", $tags="v1.0")
+    Person(customer, Customer, "A customer of the bank, with personal bank accounts", $tags="v1.0")
+
+    Container_Boundary(c1, "Internet Banking") {
+        Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to cutomers via their web browser")
+        Container_Ext(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device")
+        Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA")
+        ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.")
+        ContainerDb_Ext(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API")
+
+    }
+
+    System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+    Rel(customer, web_app, "Uses", "HTTPS")
+    UpdateRelStyle(customer, web_app, $offsetY="60", $offsetX="90")
+    Rel(customer, spa, "Uses", "HTTPS")
+    UpdateRelStyle(customer, spa, $offsetY="-40")
+    Rel(customer, mobile_app, "Uses")
+    UpdateRelStyle(customer, mobile_app, $offsetY="-30")
+
+    Rel(web_app, spa, "Delivers")
+    UpdateRelStyle(web_app, spa, $offsetX="130")
+    Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
+    Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
+    Rel_Back(database, backend_api, "Reads from and writes to", "sync, JDBC")
+
+    Rel(email_system, customer, "Sends e-mails to")
+    UpdateRelStyle(email_system, customer, $offsetX="-45")
+    Rel(backend_api, email_system, "Sends e-mails using", "sync, SMTP")
+    UpdateRelStyle(backend_api, email_system, $offsetY="-60")
+    Rel(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
+    UpdateRelStyle(backend_api, banking_system, $offsetY="-50", $offsetX="-140")
+```
+
+### 12.3. C4Component
+
+```markdown
+C4Component
+    title Component diagram for Internet Banking System - API Application
+
+    Container(spa, "Single Page Application", "javascript and angular", "Provides all the internet banking functionality to customers via their web browser.")
+    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
+    ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+    System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+    Container_Boundary(api, "API Application") {
+        Component(sign, "Sign In Controller", "MVC Rest Controller", "Allows users to sign in to the internet banking system")
+        Component(accounts, "Accounts Summary Controller", "MVC Rest Controller", "Provides customers with a summary of their bank accounts")
+        Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+        Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+
+        Rel(sign, security, "Uses")
+        Rel(accounts, mbsfacade, "Uses")
+        Rel(security, db, "Read & write to", "JDBC")
+        Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
+    }
+
+    Rel_Back(spa, sign, "Uses", "JSON/HTTPS")
+    Rel(spa, accounts, "Uses", "JSON/HTTPS")
+
+    Rel(ma, sign, "Uses", "JSON/HTTPS")
+    Rel(ma, accounts, "Uses", "JSON/HTTPS")
+
+    UpdateRelStyle(spa, sign, $offsetY="-40")
+    UpdateRelStyle(spa, accounts, $offsetX="40", $offsetY="40")
+
+    UpdateRelStyle(ma, sign, $offsetX="-90", $offsetY="40")
+    UpdateRelStyle(ma, accounts, $offsetY="-40")
+
+        UpdateRelStyle(sign, security, $offsetX="-160", $offsetY="10")
+        UpdateRelStyle(accounts, mbsfacade, $offsetX="140", $offsetY="10")
+        UpdateRelStyle(security, db, $offsetY="-40")
+        UpdateRelStyle(mbsfacade, mbs, $offsetY="-40")
+```
+
+```mermaid
+C4Component
+    title Component diagram for Internet Banking System - API Application
+
+    Container(spa, "Single Page Application", "javascript and angular", "Provides all the internet banking functionality to customers via their web browser.")
+    Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
+    ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+    System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+    Container_Boundary(api, "API Application") {
+        Component(sign, "Sign In Controller", "MVC Rest Controller", "Allows users to sign in to the internet banking system")
+        Component(accounts, "Accounts Summary Controller", "MVC Rest Controller", "Provides customers with a summary of their bank accounts")
+        Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+        Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+
+        Rel(sign, security, "Uses")
+        Rel(accounts, mbsfacade, "Uses")
+        Rel(security, db, "Read & write to", "JDBC")
+        Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
+    }
+
+    Rel_Back(spa, sign, "Uses", "JSON/HTTPS")
+    Rel(spa, accounts, "Uses", "JSON/HTTPS")
+
+    Rel(ma, sign, "Uses", "JSON/HTTPS")
+    Rel(ma, accounts, "Uses", "JSON/HTTPS")
+
+    UpdateRelStyle(spa, sign, $offsetY="-40")
+    UpdateRelStyle(spa, accounts, $offsetX="40", $offsetY="40")
+
+    UpdateRelStyle(ma, sign, $offsetX="-90", $offsetY="40")
+    UpdateRelStyle(ma, accounts, $offsetY="-40")
+
+        UpdateRelStyle(sign, security, $offsetX="-160", $offsetY="10")
+        UpdateRelStyle(accounts, mbsfacade, $offsetX="140", $offsetY="10")
+        UpdateRelStyle(security, db, $offsetY="-40")
+        UpdateRelStyle(mbsfacade, mbs, $offsetY="-40")
+```
+
+### 12.4. C4Dynamic
+
+```markdown
+C4Dynamic
+    title Dynamic diagram for Internet Banking System - API Application
+
+    ContainerDb(c4, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+    Container(c1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.")
+    Container_Boundary(b, "API Application") {
+      Component(c3, "Security Component", "Spring Bean", "Provides functionality Related to signing in, changing passwords, etc.")
+      Component(c2, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in to the Internet Banking System.")
+    }
+    Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
+    Rel(c2, c3, "Calls isAuthenticated() on")
+    Rel(c3, c4, "select * from users where username = ?", "JDBC")
+
+    UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
+    UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
+    UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
+```
+
+```mermaid
+C4Dynamic
+    title Dynamic diagram for Internet Banking System - API Application
+
+    ContainerDb(c4, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+    Container(c1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.")
+    Container_Boundary(b, "API Application") {
+      Component(c3, "Security Component", "Spring Bean", "Provides functionality Related to signing in, changing passwords, etc.")
+      Component(c2, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in to the Internet Banking System.")
+    }
+    Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
+    Rel(c2, c3, "Calls isAuthenticated() on")
+    Rel(c3, c4, "select * from users where username = ?", "JDBC")
+
+    UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
+    UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
+    UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
+```
+
+### 12.5. C4Deployment
+
+```markdown
+C4Deployment
+    title Deployment Diagram for Internet Banking System - Live
+
+    Deployment_Node(mob, "Customer's mobile device", "Apple IOS or Android"){
+        Container(mobile, "Mobile App", "Xamarin", "Provides a limited subset of the Internet Banking functionality to customers via their mobile device.")
+    }
+
+    Deployment_Node(comp, "Customer's computer", "Microsoft Windows or Apple macOS"){
+        Deployment_Node(browser, "Web Browser", "Google Chrome, Mozilla Firefox,<br/> Apple Safari or Microsoft Edge"){
+            Container(spa, "Single Page Application", "JavaScript and Angular", "Provides all of the Internet Banking functionality to customers via their web browser.")
+        }
+    }
+
+    Deployment_Node(plc, "Big Bank plc", "Big Bank plc data center"){
+        Deployment_Node(dn, "bigbank-api*** x8", "Ubuntu 16.04 LTS"){
+            Deployment_Node(apache, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(api, "API Application", "Java and Spring MVC", "Provides Internet Banking functionality via a JSON/HTTPS API.")
+            }
+        }
+        Deployment_Node(bb2, "bigbank-web*** x4", "Ubuntu 16.04 LTS"){
+            Deployment_Node(apache2, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(web, "Web Application", "Java and Spring MVC", "Delivers the static content and the Internet Banking single page application.")
+            }
+        }
+        Deployment_Node(bigbankdb01, "bigbank-db01", "Ubuntu 16.04 LTS"){
+            Deployment_Node(oracle, "Oracle - Primary", "Oracle 12c"){
+                ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+            }
+        }
+        Deployment_Node(bigbankdb02, "bigbank-db02", "Ubuntu 16.04 LTS") {
+            Deployment_Node(oracle2, "Oracle - Secondary", "Oracle 12c") {
+                ContainerDb(db2, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+            }
+        }
+    }
+
+    Rel(mobile, api, "Makes API calls to", "json/HTTPS")
+    Rel(spa, api, "Makes API calls to", "json/HTTPS")
+    Rel_U(web, spa, "Delivers to the customer's web browser")
+    Rel(api, db, "Reads from and writes to", "JDBC")
+    Rel(api, db2, "Reads from and writes to", "JDBC")
+    Rel_R(db, db2, "Replicates data to")
+
+    UpdateRelStyle(spa, api, $offsetY="-40")
+    UpdateRelStyle(web, spa, $offsetY="-40")
+    UpdateRelStyle(api, db, $offsetY="-20", $offsetX="5")
+    UpdateRelStyle(api, db2, $offsetX="-40", $offsetY="-20")
+    UpdateRelStyle(db, db2, $offsetY="-10")
+```
+
+```mermaid
+C4Deployment
+    title Deployment Diagram for Internet Banking System - Live
+
+    Deployment_Node(mob, "Customer's mobile device", "Apple IOS or Android"){
+        Container(mobile, "Mobile App", "Xamarin", "Provides a limited subset of the Internet Banking functionality to customers via their mobile device.")
+    }
+
+    Deployment_Node(comp, "Customer's computer", "Microsoft Windows or Apple macOS"){
+        Deployment_Node(browser, "Web Browser", "Google Chrome, Mozilla Firefox,<br/> Apple Safari or Microsoft Edge"){
+            Container(spa, "Single Page Application", "JavaScript and Angular", "Provides all of the Internet Banking functionality to customers via their web browser.")
+        }
+    }
+
+    Deployment_Node(plc, "Big Bank plc", "Big Bank plc data center"){
+        Deployment_Node(dn, "bigbank-api*** x8", "Ubuntu 16.04 LTS"){
+            Deployment_Node(apache, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(api, "API Application", "Java and Spring MVC", "Provides Internet Banking functionality via a JSON/HTTPS API.")
+            }
+        }
+        Deployment_Node(bb2, "bigbank-web*** x4", "Ubuntu 16.04 LTS"){
+            Deployment_Node(apache2, "Apache Tomcat", "Apache Tomcat 8.x"){
+                Container(web, "Web Application", "Java and Spring MVC", "Delivers the static content and the Internet Banking single page application.")
+            }
+        }
+        Deployment_Node(bigbankdb01, "bigbank-db01", "Ubuntu 16.04 LTS"){
+            Deployment_Node(oracle, "Oracle - Primary", "Oracle 12c"){
+                ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+            }
+        }
+        Deployment_Node(bigbankdb02, "bigbank-db02", "Ubuntu 16.04 LTS") {
+            Deployment_Node(oracle2, "Oracle - Secondary", "Oracle 12c") {
+                ContainerDb(db2, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+            }
+        }
+    }
+
+    Rel(mobile, api, "Makes API calls to", "json/HTTPS")
+    Rel(spa, api, "Makes API calls to", "json/HTTPS")
+    Rel_U(web, spa, "Delivers to the customer's web browser")
+    Rel(api, db, "Reads from and writes to", "JDBC")
+    Rel(api, db2, "Reads from and writes to", "JDBC")
+    Rel_R(db, db2, "Replicates data to")
+
+    UpdateRelStyle(spa, api, $offsetY="-40")
+    UpdateRelStyle(web, spa, $offsetY="-40")
+    UpdateRelStyle(api, db, $offsetY="-20", $offsetX="5")
+    UpdateRelStyle(api, db2, $offsetX="-40", $offsetY="-20")
+    UpdateRelStyle(db, db2, $offsetY="-10")
+```
 
 ## 13. Карты мыслей
 
+> [!warning]
+> Карты мыслий на данный момент являются экспериментальными диаграммами.
+
+Карта мыслей - это диаграмма, используемая для визуального упорядочивания информации в иерархию, демонстрации взаимоотношений частей в целом. Обычно она создаётся для конкретного концепта. Основные идеи соединяются напрямую с основополагающим концептом, остальные идеи ответвляются от данных "основных" идей.
+
+**Пример**
+
+```markdown
+mindmap
+	root((mindmap))
+		Origins
+			Long history
+			::icon(fa fa-book)
+			Popularisation
+				British popular psychology author Tony Buzan
+		Research
+			On effectiveness<br/>and features
+			On Automatic creation
+				Uses
+					Creative techniques
+					Strategic planning
+					Argument mapping
+		Tools
+			Pen and paper
+			Mermaid
+```
+
+### 13.1. Синтаксис
+
+Синтаксис карт мыслей в _Mermaid_ прост и использует отступы для создания уровней иерархии.
+
+**Пример**
+
+```markdown
+mindmap
+	Root
+		A
+			B
+			C
+```
+
+В примере выше у нас есть корневой уровень с узлом `Root`, у которого есть только один потомок `A`. Узел `A`, в свою очередь, имеет двух потомков: `B` и `C`.
+
+### 13.2. Фигуры
+
+Карты мыслей в _Mermaid_ могут показывать узлы в виде различных фигур. При определении фигуры для узла, синтаксис схож с используемым для узлов в блок-схемах (идентификатор с последующим определением фигуры и текстом внутри разделителей фигуры).
+
+Карты мыслей поддерживают следующие фигуры:
+
+**Квадрат**
+
+```markdown
+mindmap
+	id[I am a square]
+```
+
+**Скруглённый квадрат**
+
+```markdown
+mindmap
+	id(I am a rounded square)
+```
+
+**Круг**
+
+```
+mindmap
+	id((I am a circle))
+```
+
+**Взрыв**
+
+```markdown
+mindmap
+	id))I am a bang((
+```
+
+**Облако**
+
+```markdown
+mindmap
+	id)I am a cloud(
+```
+
+**Шестиугольник**
+
+```markdown
+mindmap
+	id{{I am a hexagon}}
+```
+
+**Фигура по-умолчанию**
+
+```markdown
+mindmap
+	I am the default shape
+```
+
+### 13.3. Пиктограммы и классы
+
+#### 13.3.1. Пиктограммы
+
+Так же, как и в блок-схемах, можно добавлять пиктограммы к узлам. Стилизация для пиктограмм определяется во время интеграции, соответственно, пиктограммы доступны и для WEB-страниц.
+
+Как только установлен набор шрифтов с пиктограммами, их возможно использовать в карте мыслей с помощью `::icon()`.
+
+**Пример**
+
+```markdown
+mindmap
+	Root
+		A
+		::icon(fa fa-book)
+		B(B)
+		::icon(mdi mdi-skull-outline)
+```
+
+#### 13.3.2. Классы
+
+Синтаксис для определения классов схож с оным для блок-схем. **CSS**-классы могут быть добавлены после последовательности из трёх двоеточий.
+
+**Пример**
+
+```markdown
+mindmap
+	Root
+		A[A]
+		:::urgent large
+		B(B)
+		C
+```
+
+### 13.4. Разметка строк
+
+Разметка строк позволяет использовать жирный или курсивный шрифт и автоматически сворачивает текст внутри фигуры.
+
++ Для жирного текста используются два символа звёздочки (`*`) до и после текста.
++ Для курсива используется один символ звёздочки (`*`) до и после текста
+
+### 13.5. Интеграция с библиотеками и WEB-страницами
+
+Загрузка на WEB-страницу для версий до `9.4.0`:
+
+```html
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.esm.min.mjs';
+	import mindmap from 'https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/mermaid-mindmap.esm.min.mjs';
+	await mermaid.registerExternalDiagrams([mindmap]);
+</script>
+```
+
+Для версий после (и включая) `9.4.0`:
+
+```html
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+</script>
+```
+
 ## 14. Диаграммы временной шкалы
+
+> [!warning]
+> Диаграммы временной шкалы на данный момент являются экспериментальными.
+
+Диаграммы временной шкалы иллюстрируют хронологию событий, даты или периоды времени.
+
+**Пример**
+
+```markdown
+timeline
+	title History of Social Media Platform
+	2002 : LinkedIn
+	2004 : Facebook
+	: Google
+	2005 : YouTube
+	2006 : Twitter
+```
+
+### 14.1. Синтаксис
+
+Создание диаграммы временной шкалы в _Mermaid_ начинается с ключевого слова `timeline`. Далее, можно добавить заголовок для диаграммы, использую ключевое слово `title`.
+
+Для того, чтобы добавить данные, нужно указать временной период с последующим двоеточием и текстом события. Можно добавить ещё несколько событий для данного периода, вставляя последовательно двоеточия и описания событий:
+
+```markdown
+{time period} : {event}
+```
+
+```markdown
+{time period} : {event} : {event}
+```
+
+```markdown
+{time period} : {event}
+: {event}
+: {event}
+```
+
+**Пример**
+
+```markdown
+timeline
+	title History of Social Media Platform
+	2002 : LinkedIn
+	2004 : Facebook : Google
+	2005 : YouTube
+	2006 : Twitter
+```
+
+### 14.2. Группирование временных периодов по секциям/поколениям
+
+Для того, чтобы сгруппировать временные периоды по секцияv, нужно добавить ключевое слово `section` с последующим названием секции.
+
+Все последующие временные периоды будут занесены в данную секцию, пока новая не будет определена.
+
+**Пример**
+
+```markdown
+timeline
+	title Timeline of Industrial Revolution
+	section 17th-20th century
+		Industry 1.0 : Machinery, Water power, Steam<br>power
+		Industry 2.0 : Electricity, Internal combustion engine, Mass production
+		Industry 3.0 : Electronics, Computers, Automation
+	section 21st century
+		Industry 4.0 : Internet, Robotics, IoT
+		Industry 5.0 : AI, Big data, 3D printing
+```
+
+### 14.3. Свёртка текста для длительных периодов или событий
+
+По-умолчанию, текст для периодов времени и событий сворачивается, если он слишком длинный.
+
+Можно использовать `<br>` для переноса строк.
+
+### 14.4. Стилизация временных периодов и событий
+
+1. Каждый период времини и соответствующие события имеют свою цветовую схему по-умолчанию.
+2. Опция `disableMultiColor` позволяет сделать так, что все временные периоды и события будут иметь одинаковую цветовую схему.
+
+#### 14.4.1. Изменение цветовой схемы
+
+Можно изменить цветовую схему, используя переменные тем от `cScale0` до `cScale11`. С их помощью можно изменить цветовые схемы для 12-ти секций (далее, секции после 12-й будут применять значения переменных циклично).
+
+### 14.5. Темы
+
+_Mermaid_ поддерживает несколько тем для диаграмм временной шкалы "из коробки":
+
++ `base`
++ `forest`
++ `dark`
++ `default`
++ `neutral`
+
+Дополнительно см.: [[#11.2.5. Темы]].
+
+### 14.6. Интеграция с библиотеками и WEB-страницами
+
+Для загрузки _Mermaid_ и использования диаграмм временной шкалы на WEB-странице, используйте следующий метод:
+
+```html
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+</script>
+```
 
 ## Ссылки
 
